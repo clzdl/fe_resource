@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+img{
+    display: block;
+    width: 100%;
+}
+@media (max-width: 639px) {
+    .container{
+        position: relative;
+        width: 100%;
+    }
+}
+@media (min-width: 640px) {
+    .container{
+        position: relative;
+        width: 640px;
+        margin: 0 auto;
+    }
+}
+.container{
+    padding:10px;
+    color: #5f5f61;
+    font-size: 12px;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e50138;
+}
+header p:nth-of-type(2){
+    color: black;
+}
+.game-zl{
+    font-size: 14px;
+    line-height: 1.6;
+    /*font-weight: bold;*/
+    color: black;
+}
+.game-zl div{
+    margin-top: 10px;
+    padding-left: 5px;
+}
+input{
+    border: 0;
+    padding: 0;
+}
+.post-form{
+    padding: 10px;
+    margin-top: 10px;
+}
+.post-form>p{
+    margin-bottom: 20px;
+}
+.clear-fix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.san-input{
+    border-left:1px solid #cccccc ;
+    border-top:1px solid #cccccc;
+}
+.san-input input,.two-input input{
+    float: left;
+    width: 33.3333%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.two-input{
+    border-left:1px solid #cccccc ;
+}
+.two-input input{
+    width: 50%;
+}
+.one-input input{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-top:0;
+}
+.person-msg textarea{
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding-left: 5px;
+    line-height: 1.6;
+    border: 1px solid #cccccc;
+    border-top:0;
+}
+
+.post-form-caipin{
+    margin-top: 20px;
+}
+.post-form-person p{
+    color: #e50138;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.post-form-caipin div{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+    color: black;
+}
+.post-form-caipin li{
+    border-bottom: 1px solid #cccccc;
+    padding-top: 10px;
+}
+.post-form-caipin li p{;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+}
+.post-form-caipin li input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5px;
+}
+.post-form-caipin li textarea{
+    display: block;
+    width: 100%;
+    height: 100px;
+    line-height: 1.6;
+    padding-left: 5px;
+    border: 0;
+}
+.post-btn{
+    margin: 20px auto 0;
+    width: 100px;
+    background: #e50138;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.tip{
+    margin-top: 10px;
+}
