@@ -171,6 +171,20 @@ body .layui-layer-dir .layui-layer-content{padding: 10px; max-height: 280px; ove
 .site-block{padding: 20px; border: 1px solid #eee;}
 .site-block .layui-form{margin-right: 200px;}
 
+/*ztree 插件js使用*/
+.tree-content {
+    display: none;
+    position: absolute;
+    /*height: 300px;*/
+    max-height: 300px;
+    flex: auto;
+    left: 0 !important;
+    top: 38px !important;
+    background: #ffffff;
+    z-index: 9999999;
+    border: 1px solid #C9C9C9 !important;
+    overflow-y: auto;
+}
 
 /* 演示 */
 body .layui-layout-admin .site-demo{bottom: 82px; padding: 0;}
