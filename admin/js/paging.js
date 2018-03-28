@@ -27,6 +27,9 @@ layui.define(['layer', 'laypage', 'laytpl'], function(exports) {
 				if(pager && pager.html()){
 					pager.prepend('<div class="layui-box layui-laypage layui-laypage-default"><span class="layui-laypage-curr"><em class="layui-laypage-em"></em><em>共计：'+d.count+' 条数据</em></span></div>');
 				}
+				if(pager.css("display") == "none"){
+                    pager.css("display","block");
+				}
 			}, //type:function
 			
 			fail: undefined, //type:function
